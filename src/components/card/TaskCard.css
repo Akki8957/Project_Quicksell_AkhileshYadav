@@ -1,0 +1,93 @@
+.task-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
+
+.task-pre-heading {
+    font-size: 12px;
+    color: gray;
+}
+
+.task-title {
+    font-size: 14px;
+    color: black;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+}
+
+.label-icon {
+    color: gray;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+.task-label {
+    position: relative;
+    font-size: 12px;
+    color: gray;
+    border: 1px solid #bec2c8;
+    border-radius: 5px;
+    padding: 5px 5px 5px 25px;
+}
+
+.label-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #bec2c8;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+user-avatar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+user-avatar img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.initials {
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 50%;
+    border: 1px solid #bec2c8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.active-dot {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.active-dot.active {
+    background-color: red;
+}
+
+.active-dot.inactive {
+    background-color: #bec2c8;
+}
